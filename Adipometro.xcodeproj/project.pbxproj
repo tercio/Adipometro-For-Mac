@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A71D09B1483EB4E00D12531 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A71D09A1483EB4E00D12531 /* Cocoa.framework */; };
+		4A71D0A51483EB4E00D12531 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A71D0A31483EB4E00D12531 /* InfoPlist.strings */; };
+		4A71D0A71483EB4E00D12531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A71D0A61483EB4E00D12531 /* main.m */; };
+		4A71D0AB1483EB4E00D12531 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A71D0A91483EB4E00D12531 /* Credits.rtf */; };
+		4A71D0AE1483EB4E00D12531 /* ADPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A71D0AD1483EB4E00D12531 /* ADPAppDelegate.m */; };
+		4A71D0B11483EB4E00D12531 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A71D0AF1483EB4E00D12531 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A71D0961483EB4E00D12531 /* Adipometro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adipometro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A71D09A1483EB4E00D12531 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A71D09D1483EB4E00D12531 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4A71D09E1483EB4E00D12531 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4A71D09F1483EB4E00D12531 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A71D0A21483EB4E00D12531 /* Adipometro-Info.plist */ = {isa = PBXFileReference; path = "Adipometro-Info.plist"; sourceTree = "<group>"; };
+		4A71D0A41483EB4E00D12531 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A71D0A61483EB4E00D12531 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A71D0A81483EB4E00D12531 /* Adipometro-Prefix.pch */ = {isa = PBXFileReference; path = "Adipometro-Prefix.pch"; sourceTree = "<group>"; };
+		4A71D0AA1483EB4E00D12531 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4A71D0AC1483EB4E00D12531 /* ADPAppDelegate.h */ = {isa = PBXFileReference; path = ADPAppDelegate.h; sourceTree = "<group>"; };
+		4A71D0AD1483EB4E00D12531 /* ADPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADPAppDelegate.m; sourceTree = "<group>"; };
+		4A71D0B01483EB4E00D12531 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A71D0931483EB4E00D12531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A71D09B1483EB4E00D12531 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A71D08B1483EB4E00D12531 = {
+			isa = PBXGroup;
+			children = (
+				4A71D0A01483EB4E00D12531 /* Adipometro */,
+				4A71D0991483EB4E00D12531 /* Frameworks */,
+				4A71D0971483EB4E00D12531 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A71D0971483EB4E00D12531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A71D0961483EB4E00D12531 /* Adipometro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A71D0991483EB4E00D12531 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A71D09A1483EB4E00D12531 /* Cocoa.framework */,
+				4A71D09C1483EB4E00D12531 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A71D09C1483EB4E00D12531 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A71D09D1483EB4E00D12531 /* AppKit.framework */,
+				4A71D09E1483EB4E00D12531 /* CoreData.framework */,
+				4A71D09F1483EB4E00D12531 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4A71D0A01483EB4E00D12531 /* Adipometro */ = {
+			isa = PBXGroup;
+			children = (
+				4A71D0AC1483EB4E00D12531 /* ADPAppDelegate.h */,
+				4A71D0AD1483EB4E00D12531 /* ADPAppDelegate.m */,
+				4A71D0AF1483EB4E00D12531 /* MainMenu.xib */,
+				4A71D0A11483EB4E00D12531 /* Supporting Files */,
+			);
+			path = Adipometro;
+			sourceTree = "<group>";
+		};
+		4A71D0A11483EB4E00D12531 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A71D0A21483EB4E00D12531 /* Adipometro-Info.plist */,
+				4A71D0A31483EB4E00D12531 /* InfoPlist.strings */,
+				4A71D0A61483EB4E00D12531 /* main.m */,
+				4A71D0A81483EB4E00D12531 /* Adipometro-Prefix.pch */,
+				4A71D0A91483EB4E00D12531 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A71D0951483EB4E00D12531 /* Adipometro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A71D0B41483EB4E00D12531 /* Build configuration list for PBXNativeTarget "Adipometro" */;
+			buildPhases = (
+				4A71D0921483EB4E00D12531 /* Sources */,
+				4A71D0931483EB4E00D12531 /* Frameworks */,
+				4A71D0941483EB4E00D12531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adipometro;
+			productName = Adipometro;
+			productReference = 4A71D0961483EB4E00D12531 /* Adipometro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A71D08D1483EB4E00D12531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4A71D0901483EB4E00D12531 /* Build configuration list for PBXProject "Adipometro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A71D08B1483EB4E00D12531;
+			productRefGroup = 4A71D0971483EB4E00D12531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A71D0951483EB4E00D12531 /* Adipometro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A71D0941483EB4E00D12531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A71D0A51483EB4E00D12531 /* InfoPlist.strings in Resources */,
+				4A71D0AB1483EB4E00D12531 /* Credits.rtf in Resources */,
+				4A71D0B11483EB4E00D12531 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A71D0921483EB4E00D12531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A71D0A71483EB4E00D12531 /* main.m in Sources */,
+				4A71D0AE1483EB4E00D12531 /* ADPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A71D0A31483EB4E00D12531 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A71D0A41483EB4E00D12531 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A71D0A91483EB4E00D12531 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A71D0AA1483EB4E00D12531 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4A71D0AF1483EB4E00D12531 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A71D0B01483EB4E00D12531 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A71D0B21483EB4E00D12531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A71D0B31483EB4E00D12531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A71D0B51483EB4E00D12531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adipometro/Adipometro-Prefix.pch";
+				INFOPLIST_FILE = "Adipometro/Adipometro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A71D0B61483EB4E00D12531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adipometro/Adipometro-Prefix.pch";
+				INFOPLIST_FILE = "Adipometro/Adipometro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A71D0901483EB4E00D12531 /* Build configuration list for PBXProject "Adipometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A71D0B21483EB4E00D12531 /* Debug */,
+				4A71D0B31483EB4E00D12531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A71D0B41483EB4E00D12531 /* Build configuration list for PBXNativeTarget "Adipometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A71D0B51483EB4E00D12531 /* Debug */,
+				4A71D0B61483EB4E00D12531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A71D08D1483EB4E00D12531 /* Project object */;
+}
