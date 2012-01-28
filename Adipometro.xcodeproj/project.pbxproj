@@ -13,6 +13,9 @@
 		4A71D0AB1483EB4E00D12531 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A71D0A91483EB4E00D12531 /* Credits.rtf */; };
 		4A71D0AE1483EB4E00D12531 /* ADPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A71D0AD1483EB4E00D12531 /* ADPAppDelegate.m */; };
 		4A71D0B11483EB4E00D12531 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A71D0AF1483EB4E00D12531 /* MainMenu.xib */; };
+		4A71D0BD1483EE5C00D12531 /* ADPDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A71D0BC1483EE5C00D12531 /* ADPDataController.m */; };
+		4A71D0C114840AAB00D12531 /* adipometro.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4A71D0C014840AAB00D12531 /* adipometro.icns */; };
+		4AF2005E14841C5600E2FD22 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4AF2005D14841C5600E2FD22 /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +24,18 @@
 		4A71D09D1483EB4E00D12531 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4A71D09E1483EB4E00D12531 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4A71D09F1483EB4E00D12531 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4A71D0A21483EB4E00D12531 /* Adipometro-Info.plist */ = {isa = PBXFileReference; path = "Adipometro-Info.plist"; sourceTree = "<group>"; };
+		4A71D0A21483EB4E00D12531 /* Adipometro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adipometro-Info.plist"; sourceTree = "<group>"; };
 		4A71D0A41483EB4E00D12531 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A71D0A61483EB4E00D12531 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4A71D0A81483EB4E00D12531 /* Adipometro-Prefix.pch */ = {isa = PBXFileReference; path = "Adipometro-Prefix.pch"; sourceTree = "<group>"; };
+		4A71D0A81483EB4E00D12531 /* Adipometro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adipometro-Prefix.pch"; sourceTree = "<group>"; };
 		4A71D0AA1483EB4E00D12531 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		4A71D0AC1483EB4E00D12531 /* ADPAppDelegate.h */ = {isa = PBXFileReference; path = ADPAppDelegate.h; sourceTree = "<group>"; };
+		4A71D0AC1483EB4E00D12531 /* ADPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADPAppDelegate.h; sourceTree = "<group>"; };
 		4A71D0AD1483EB4E00D12531 /* ADPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADPAppDelegate.m; sourceTree = "<group>"; };
 		4A71D0B01483EB4E00D12531 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4A71D0BB1483EE5C00D12531 /* ADPDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPDataController.h; sourceTree = "<group>"; };
+		4A71D0BC1483EE5C00D12531 /* ADPDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPDataController.m; sourceTree = "<group>"; };
+		4A71D0C014840AAB00D12531 /* adipometro.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = adipometro.icns; sourceTree = "<group>"; };
+		4AF2005D14841C5600E2FD22 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +93,8 @@
 				4A71D0AD1483EB4E00D12531 /* ADPAppDelegate.m */,
 				4A71D0AF1483EB4E00D12531 /* MainMenu.xib */,
 				4A71D0A11483EB4E00D12531 /* Supporting Files */,
+				4A71D0BB1483EE5C00D12531 /* ADPDataController.h */,
+				4A71D0BC1483EE5C00D12531 /* ADPDataController.m */,
 			);
 			path = Adipometro;
 			sourceTree = "<group>";
@@ -95,6 +104,8 @@
 			children = (
 				4A71D0A21483EB4E00D12531 /* Adipometro-Info.plist */,
 				4A71D0A31483EB4E00D12531 /* InfoPlist.strings */,
+				4AF2005D14841C5600E2FD22 /* icon.icns */,
+				4A71D0C014840AAB00D12531 /* adipometro.icns */,
 				4A71D0A61483EB4E00D12531 /* main.m */,
 				4A71D0A81483EB4E00D12531 /* Adipometro-Prefix.pch */,
 				4A71D0A91483EB4E00D12531 /* Credits.rtf */,
@@ -155,6 +166,8 @@
 				4A71D0A51483EB4E00D12531 /* InfoPlist.strings in Resources */,
 				4A71D0AB1483EB4E00D12531 /* Credits.rtf in Resources */,
 				4A71D0B11483EB4E00D12531 /* MainMenu.xib in Resources */,
+				4A71D0C114840AAB00D12531 /* adipometro.icns in Resources */,
+				4AF2005E14841C5600E2FD22 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +180,7 @@
 			files = (
 				4A71D0A71483EB4E00D12531 /* main.m in Sources */,
 				4A71D0AE1483EB4E00D12531 /* ADPAppDelegate.m in Sources */,
+				4A71D0BD1483EE5C00D12531 /* ADPDataController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +267,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Adipometro/Adipometro-Prefix.pch";
 				INFOPLIST_FILE = "Adipometro/Adipometro-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -264,6 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Adipometro/Adipometro-Prefix.pch";
 				INFOPLIST_FILE = "Adipometro/Adipometro-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -288,6 +304,7 @@
 				4A71D0B61483EB4E00D12531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
