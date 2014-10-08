@@ -50,7 +50,7 @@
     percG = ((4.95/dc)-4.5)*100.0;
     
     
-    NSString *str1 = [NSString stringWithFormat:@"%.6f",dc];
+    //NSString *str1 = [NSString stringWithFormat:@"%.6f",dc];
     
     NSString *str2 = [NSString stringWithFormat:@"%.2f %%",percG];
     [perc_gord setTitleWithMnemonic:str2];
